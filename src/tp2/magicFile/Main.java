@@ -21,7 +21,7 @@ public class Main {
     // todo : implement the methods and force exception handling in the printFile method
 
     private static String getFileContent(String fileName) throws FileNotFoundException {
-        File file = new File("C:\\Users\\souma\\OneDrive\\Bureau\\TP java\\tp2\\magicFile\\" + fileName);
+        File file = new File("C:\\Users\\joumene\\OneDrive\\Desktop\\TP reparti\\tp2\\magicFile\\" + fileName);
         Scanner reader = new Scanner(file);
         String content = reader.nextLine();
         return content;
